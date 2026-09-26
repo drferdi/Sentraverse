@@ -1,6 +1,6 @@
 # Deployment Guide — Sentra AI (sentra-main)
 
-_Architected and built by Classy — Sentra Healthcare Solutions © 2025–2026_
+_Architected and built by Drferdi — Sentra Healthcare Solutions © 2025–2026_
 
 ---
 
@@ -136,4 +136,4 @@ curl https://sentrahai.com/llms.txt
 
 ---
 
-_Architected and built by Classy — Sentra Healthcare Solutions © 2025–2026_
+_Architected and built by Drferdi — Sentra Healthcare Solutions © 2025–2026_

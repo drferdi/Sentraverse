@@ -1,4 +1,4 @@
-// Architected and built by Classy.
+// Architected and built by Drferdi.
 import { type ClassValue, clsx } from 'clsx'
 import { twMerge } from 'tailwind-merge'
 

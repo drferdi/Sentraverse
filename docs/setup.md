@@ -1,6 +1,6 @@
 # Setup Guide — Sentra AI (sentra-main)
 
-_Architected and built by Classy — Sentra Healthcare Solutions © 2025–2026_
+_Architected and built by Drferdi — Sentra Healthcare Solutions © 2025–2026_
 
 ---
 
@@ -119,4 +119,4 @@ curl -I http://localhost:3000 | grep -E "x-frame|x-content|strict-transport|cont
 
 ---
 
-_Architected and built by Classy — Sentra Healthcare Solutions © 2025–2026_
+_Architected and built by Drferdi — Sentra Healthcare Solutions © 2025–2026_

@@ -1,5 +1,5 @@
-// Architected and built by Classy.
-// Adapted from D:\Devops\code-prototype\assist-site\app\sentrapedia\page.tsx
+// Architected and built by Drferdi.
+// Adapted from (legacy) code-prototype\assist-site\app\sentrapedia\page.tsx
 'use client'
 
 import { useEffect, useMemo, useState } from 'react'

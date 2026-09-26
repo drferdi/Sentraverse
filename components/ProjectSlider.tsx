@@ -1,4 +1,4 @@
-// Architected and built by Classy.
+// Architected and built by Drferdi.
 
 import { layoutGovernance } from '@/lib/design-governance'
 import { cn } from '@/lib/utils'

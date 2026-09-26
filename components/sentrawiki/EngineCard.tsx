@@ -1,4 +1,4 @@
-// Architected and built by Classy.
+// Architected and built by Drferdi.
 // Flat reskin dari wikirepo EngineCard — border tipis + rail accent kiri,
 // mengganti gaya neumorphic asli (Chief menolak shadow timbul). Konten verbatim.
 import type { Engine } from './data'

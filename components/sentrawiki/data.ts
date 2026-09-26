@@ -1,6 +1,6 @@
-// Architected and built by Classy.
+// Architected and built by Drferdi.
 // Konten diadaptasi & diringkas dari
-// D:\Devops\abyss-monorepo\apps\internal\wikirepo\src\pages\ArticlePage.tsx,
+// abyss-monorepo (legacy) apps\internal\wikirepo\src\pages\ArticlePage.tsx,
 // dialihbahasakan ke Bahasa Indonesia profesional. Istilah teknis, nama engine,
 // dan identifier kode dipertahankan dalam bentuk aslinya.
 
@@ -205,7 +205,7 @@ export const APP_ROWS = [
   },
   {
     domain: 'Community',
-    apps: 'classy-memory, classy-transformer, daf-website, community innovation apps',
+    apps: 'drferdi-memory, drferdi-transformer, daf-website, community innovation apps',
     users: 'Kader kesehatan, masyarakat umum',
   },
   {

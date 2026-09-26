@@ -1,5 +1,5 @@
 {
-  "_architect": "Architected and built by Classy.",
+  "_architect": "Architected and built by Drferdi.",
   "compilerOptions": {
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,

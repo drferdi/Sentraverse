@@ -1,6 +1,6 @@
 # Security Policy — Sentra AI (sentra-main)
 
-_Architected and built by Classy — Sentra Healthcare Solutions © 2025–2026_
+_Architected and built by Drferdi — Sentra Healthcare Solutions © 2025–2026_
 
 ---
 
@@ -113,4 +113,4 @@ Known risk noted in CONTRIBUTING.md: `xlsx >= 0.18.5` open version range is a me
 
 ---
 
-_Architected and built by Classy — Sentra Healthcare Solutions © 2025–2026_
+_Architected and built by Drferdi — Sentra Healthcare Solutions © 2025–2026_

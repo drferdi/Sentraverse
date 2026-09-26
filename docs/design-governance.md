@@ -9,7 +9,7 @@ token yang sudah ada sebelum menambah nilai spacing, font, atau density baru.
 ## Layout Rhythm
 
 Gunakan token dari
-[lib/design-governance.ts](/D:/Devops/abyss-monorepo/apps/healthcare/sentraverse/lib/design-governance.ts:1).
+[lib/design-governance.ts](../lib/design-governance.ts).
 
 - `layoutGovernance.sectionX`: gutter default `px-6 md:px-12`
 - `layoutGovernance.sectionY.compact`: `py-12 md:py-16`
@@ -49,7 +49,7 @@ Rules:
 
 Override global berbasis `!important` dilarang untuk produk utama. Untuk surface
 khusus seperti simulasi klinis, pakai variabel terlingkup di
-[app/globals.css](/D:/Devops/abyss-monorepo/apps/healthcare/sentraverse/app/globals.css:1):
+[app/globals.css](../app/globals.css):
 
 - `.sentra-sim-density-compact`
 - `.sentra-sim-title`

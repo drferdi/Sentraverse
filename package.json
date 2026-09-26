@@ -1,5 +1,5 @@
 {
-  "architect": "Architected and built by Classy.",
+  "architect": "Architected and built by Drferdi.",
   "name": "@the-abyss/sentraverse",
   "version": "1.0.0",
   "description": "Sentra marketing website — sentrahai.com",
@@ -8,14 +8,21 @@
     "dev": "next dev --webpack",
     "dev:turbo": "next dev --turbopack",
     "build": "next build --webpack",
-    "start": "next start",
+    "start": "next start --hostname 127.0.0.1 --port 4340",
     "lint": "eslint .",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test app/api/medical-knowledge/route.test.mjs",
+    "deploy:dry-run": "node scripts/deploy-dry-run.mjs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
+  "packageManager": "pnpm@11.21.0",
+  "engines": {
+    "node": ">=24 <25"
+  },
   "dependencies": {
     "@tailwindcss/postcss": "^4.2.1",
     "@vercel/speed-insights": "^2.0.0",
@@ -24,7 +31,7 @@
     "framer-motion": "^12.35.2",
     "gsap": "^3.14.2",
     "lucide-react": "^0.577.0",
-    "next": "16.2.6",
+    "next": "16.3.6",
     "postcss": "^8.5.8",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",

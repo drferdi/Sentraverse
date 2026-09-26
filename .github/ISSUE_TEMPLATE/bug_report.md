@@ -71,4 +71,4 @@ assignees: ''
 
 > **Note:** `sentra-main` is a static marketing site. It does not process patient data. No PHI should appear in this bug report.
 
-_Architected and built by Classy — Sentra Healthcare Solutions © 2025–2026_
+_Architected and built by Drferdi — Sentra Healthcare Solutions © 2025–2026_

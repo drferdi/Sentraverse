@@ -1,4 +1,4 @@
-// Architected and built by Classy.
+// Architected and built by Drferdi.
 // sentra-main: public marketing website for sentrahai.com
 // /dashboard/* is proxied to sentra-dashboard (dedicated clinical app) via rewrites.
 

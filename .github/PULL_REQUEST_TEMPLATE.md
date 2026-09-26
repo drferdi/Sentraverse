@@ -60,7 +60,7 @@ Closes # <!-- issue number, if applicable -->
 ## Code Conventions
 
 - [ ] All new component files have `"use client";` as first directive
-- [ ] All new files include brand signature: `// Architected and built by Classy.`
+- [ ] All new files include brand signature: `// Architected and built by Drferdi.`
 - [ ] No hardcoded colour values — all colours reference CSS custom properties from `app/globals.css`
 - [ ] New navigation anchors added to `lib/site-links.ts`
 
@@ -76,4 +76,4 @@ Closes # <!-- issue number, if applicable -->
 
 ---
 
-_Architected and built by Classy — Sentra Healthcare Solutions © 2025–2026_
+_Architected and built by Drferdi — Sentra Healthcare Solutions © 2025–2026_

@@ -1,4 +1,4 @@
-// Architected and built by Classy.
+// Architected and built by Drferdi.
 // Section "napas" statis (tanpa pin/scrub) di antara dua section pinned
 // (SentraSim → BlueprintStory) agar ritme scroll tidak melelahkan.
 // Sengaja pendek (<50vh) dan tenang: satu kalimat editorial + tanda tangan

@@ -1,6 +1,6 @@
 # Contributing Guide — Sentra AI (sentra-main)
 
-_Architected and built by Classy — Sentra Healthcare Solutions © 2025–2026_
+_Architected and built by Drferdi — Sentra Healthcare Solutions © 2025–2026_
 
 ---
 
@@ -229,7 +229,7 @@ Do not hardcode colour values in component files. Always reference tokens.
 2. Add a `<section id="your-section">` with the appropriate anchor ID
 3. Import and add the component in `app/page.tsx` in the desired render order
 4. Add the anchor to `lib/site-links.ts` if it needs to be linked from the Navbar
-5. Add brand signature: `// Architected and built by Classy.`
+5. Add brand signature: `// Architected and built by Drferdi.`
 
 ---
 
@@ -240,7 +240,7 @@ Do not hardcode colour values in component files. Always reference tokens.
 - **Animation**: Framer Motion for component-level transitions; GSAP for complex scroll-driven sequences
 - **State**: Local `useState`/`useRef` — no global state library
 - **Client directive**: All components in `components/` use `"use client"` due to Framer Motion dependency
-- **Brand signature**: Every new file must include `// Architected and built by Classy.` on the first or second line
+- **Brand signature**: Every new file must include `// Architected and built by Drferdi.` on the first or second line
 
 ---
 
@@ -294,4 +294,4 @@ Demo data in these components represents simulated clinical scenarios for illust
 
 ---
 
-_Architected and built by Classy — Sentra Healthcare Solutions © 2025–2026_
+_Architected and built by Drferdi — Sentra Healthcare Solutions © 2025–2026_

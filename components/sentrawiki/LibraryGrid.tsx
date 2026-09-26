@@ -1,4 +1,4 @@
-// Architected and built by Classy.
+// Architected and built by Drferdi.
 // Accordion collapsible untuk indeks dokumentasi (~150 entri). Ciut default
 // (kategori pertama terbuka), isi mengalir multi-kolom agar padat. Seluruh
 // href asli di sumber adalah '#' placeholder, jadi item non-interaktif.

@@ -1,6 +1,6 @@
 # Testing Guide — Sentra AI (sentra-main)
 
-_Architected and built by Classy — Sentra Healthcare Solutions © 2025–2026_
+_Architected and built by Drferdi — Sentra Healthcare Solutions © 2025–2026_
 
 ---
 
@@ -126,4 +126,12 @@ tests/
 
 ---
 
-_Architected and built by Classy — Sentra Healthcare Solutions © 2025–2026_
+_Architected and built by Drferdi — Sentra Healthcare Solutions © 2025–2026_
+
+---
+
+## Capsule commands (SAFRS, 2026-09-26)
+
+The sections above predate the migration. The current, executable commands are in
+`project.contract.json` and `AGENTS.md` "Commands": lint, typecheck (`tsc --noEmit`), the
+node:test suite (`test`), build, and a deploy dry-run, all through `node scripts/pnpm.mjs`.

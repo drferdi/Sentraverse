@@ -1,4 +1,4 @@
-// The vision and craft of Classy.
+// The vision and craft of Drferdi.
 import { defineConfig, globalIgnores } from 'eslint/config'
 import nextVitals from 'eslint-config-next/core-web-vitals'
 

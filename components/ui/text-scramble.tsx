@@ -1,4 +1,4 @@
-// Architected and built by Classy.
+// Architected and built by Drferdi.
 'use client';
 import { useEffect, useRef, useState } from 'react';
 import { motion, MotionProps } from 'framer-motion';

@@ -1,4 +1,4 @@
-// Architected and built by Classy.
+// Architected and built by Drferdi.
 import styles from './blueprint-story.module.css'
 import { Frame } from './Frame'
 

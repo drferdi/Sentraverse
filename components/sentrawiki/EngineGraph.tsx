@@ -1,4 +1,4 @@
-// Architected and built by Classy.
+// Architected and built by Drferdi.
 // Flat reskin dari wikirepo EngineGraph. Gaya neumorphic asli dibuang
 // (Chief menolak shadow timbul + override .dark tidak pernah aktif di situs
 // dark-only ini). Node & relasi antar-engine dipertahankan apa adanya.

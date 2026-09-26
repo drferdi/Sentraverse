@@ -1,4 +1,4 @@
-// Architected and built by Classy.
+// Architected and built by Drferdi.
 /** @type {import('postcss-load-config').Config} */
 const config = {
   plugins: {

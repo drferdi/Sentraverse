@@ -1,6 +1,6 @@
-// Architected and built by Classy.
+// Architected and built by Drferdi.
 // Konten diadaptasi & diringkas dari
-// D:\Devops\abyss-monorepo\apps\internal\wikirepo\src\pages\ArticlePage.tsx,
+// abyss-monorepo (legacy) apps\internal\wikirepo\src\pages\ArticlePage.tsx,
 // dialihbahasakan ke Bahasa Indonesia profesional. Presentasi memakai token
 // dark Sentraverse dengan scope "kertas krem" ([data-wiki-paper]).
 'use client'

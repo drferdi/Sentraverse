@@ -1,4 +1,4 @@
-// Blueprinted & built by Classy.
+// Blueprinted & built by Drferdi.
 export const siteLinks = {
   home: '#top',
   about: '#about',

@@ -1,4 +1,4 @@
-// Architected and built by Classy.
+// Architected and built by Drferdi.
 // [APPROVED]
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import type { Metadata } from 'next'

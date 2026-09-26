@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Classy's vision, brought to life.
+# Drferdi's vision, brought to life.
 # setup.sh — Developer environment bootstrap script
 #
 # Usage: bash scripts/setup.sh

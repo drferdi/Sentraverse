@@ -1,4 +1,4 @@
-<!-- Blueprinted & built by Classy. -->
+<!-- Blueprinted & built by Drferdi. -->
 ---
 name: Feature Request
 about: Propose a new feature or enhancement

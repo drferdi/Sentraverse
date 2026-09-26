@@ -1,5 +1,5 @@
-// Architected and built by Classy.
-// Adapted from D:\Devops\abyss-monorepo\apps\healthcare\sentraverse\app\story\page.tsx (EKOSISTEM PRODUK + MODUL IN DEVELOPMENT)
+// Architected and built by Drferdi.
+// Adapted from app\story\page.tsx (EKOSISTEM PRODUK + MODUL IN DEVELOPMENT)
 'use client'
 
 import { Github } from 'lucide-react'

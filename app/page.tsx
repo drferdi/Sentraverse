@@ -1,4 +1,4 @@
-// Architected and built by Classy.
+// Architected and built by Drferdi.
 // [APPROVED]
 
 import About from '@/components/About'

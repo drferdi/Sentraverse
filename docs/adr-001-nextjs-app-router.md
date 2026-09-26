@@ -1,8 +1,8 @@
-<!-- Designed and constructed by Classy. -->
+<!-- Designed and constructed by Drferdi. -->
 
 # ADR-001: Next.js App Router with React 19
 
-**Status:** Accepted **Date:** 2026-01-15 **Deciders:** Classy (Principal
+**Status:** Accepted **Date:** 2026-01-15 **Deciders:** Drferdi (Principal
 Architect)
 
 ---
@@ -58,4 +58,4 @@ Use **Next.js 16 with the App Router** and **React 19**.
 
 ---
 
-_Designed and constructed by Classy._
+_Designed and constructed by Drferdi._

@@ -1,6 +1,6 @@
 # Architecture — Sentra AI (sentra-main)
 
-_Architected and built by Classy — Sentra Healthcare Solutions © 2025–2026_
+_Architected and built by Drferdi — Sentra Healthcare Solutions © 2025–2026_
 
 > For the formal ADR, see
 > [`docs/adr-001-nextjs-app-router.md`](./docs/adr-001-nextjs-app-router.md).
@@ -368,4 +368,4 @@ Content-Security-Policy: [full CSP — see SECURITY.md]
 
 ---
 
-_Architected and built by Classy — Sentra Healthcare Solutions © 2025–2026_
+_Architected and built by Drferdi — Sentra Healthcare Solutions © 2025–2026_

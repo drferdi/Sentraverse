@@ -1,4 +1,4 @@
-// Adapted from D:\Devops\code-prototype\assist-site\components\sentrapedia\data.ts
+// Adapted from (legacy) code-prototype\assist-site\components\sentrapedia\data.ts
 export type Disease = {
   id: number
   nama: string

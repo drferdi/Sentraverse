@@ -1,4 +1,4 @@
-<!-- Architected and built by Classy. -->
+<!-- Architected and built by Drferdi. -->
 
 # Architecture Documentation — Sentra AI Landing Site
 
@@ -53,4 +53,4 @@ Formal record:
 
 ---
 
-_Architected and built by Classy._
+_Architected and built by Drferdi._

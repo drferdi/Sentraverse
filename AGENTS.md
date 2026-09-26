@@ -1,43 +1,51 @@
-# AGENTS.md — Sentraverse
+# Sentraverse — Capsule Router
 
-Last updated: 2026-06-28 | Owner: Chief
+## Inheritance
 
-> Inherits root [`AGENTS.md`](../../../AGENTS.md) governance; this file may only
-> ADD scoped context. **Root wins** on conflict.
+This file is sufficient capsule-local guidance after extraction. When nested in a governed
+repository, its contribution rules may add review or security requirements; those requirements
+must not become lifecycle or standalone-verification dependencies.
 
-## Identity
+## Objective and ownership
 
-- Name: Sentraverse (formerly Sentra Main)
-- Package: `@the-abyss/sentraverse`
-- Type: Next.js healthcare platform hub + marketing surface
-- Stack: Next.js + TypeScript + Playwright
-- Owner: Chief (Dr. Ferdi Iskandar)
+- Project: Sentraverse (domain: `healthcare`)
+- Objective: Public Sentra marketing website and platform hub for sentrahai.com.
+- Human owner: Chief (dr. Ferdi Iskandar)
+- Default risk: `R1`. Breaking public routes or the `/dashboard` and `/asisten-medis`
+  rewrites needs review.
 
-## Run
+## Standalone contract
 
-```powershell
-pnpm --filter @the-abyss/sentraverse lint
-pnpm --filter @the-abyss/sentraverse build
-pnpm --filter @the-abyss/sentraverse dev
-pnpm --filter @the-abyss/sentraverse test:e2e
-```
+This capsule owns its runtime: its own pnpm workspace (`pnpm-workspace.yaml`), lockfile,
+scripts, and build configuration. It never depends on an enclosing workspace, catalog,
+lockfile, configuration, script, tool, package, or another capsule. External services are
+declared in `project.contract.json` by environment-variable name only.
 
-No app-local `format:check`, `typecheck`, or general `test` script is defined as
-of this audit.
+## Required context
 
-## Operating Rules (scoped)
+Read `.agents/HANDOFF.md` first, then `.agents/CONTEXT.md`.
 
-- Safety: never expose secrets/PHI; use the narrowest scope.
-- Task class: A trivial -> proceed · B standard -> plan, do, verify · C -> Chief
-  GO.
-- Memory: read `.agent/` first; update `HANDOFF.md`/`PROGRESS.md` after
-  meaningful work.
+1. `README.md`
+2. `docs/architecture.md` and `ARCHITECTURE.md`
+3. `docs/data.md`
+4. `docs/testing.md`
 
-## Boundaries
+## Commands
 
-- Public marketing and platform hub — breaking API or route changes need review.
+All commands run from this capsule root as argv (`program` plus `args`); see
+`project.contract.json`.
 
-## SSOT
+- `install`: `node scripts/pnpm.mjs install --frozen-lockfile`
+- `lint`: `node scripts/pnpm.mjs run lint`
+- `typecheck`: `node scripts/pnpm.mjs run typecheck`
+- `test`: `node scripts/pnpm.mjs run test` (node:test suite under `app/`)
+- `build`: `node scripts/pnpm.mjs run build`
+- `run`: `node scripts/pnpm.mjs run start` (serves on 127.0.0.1:4340)
+- `deployDryRun`: `node scripts/pnpm.mjs run deploy:dry-run`
+- Browser end-to-end smoke (needs Playwright browsers installed): `node scripts/pnpm.mjs run test:e2e`
 
-- `.agent/`: `CONTEXT.md`, `HANDOFF.md`, `VALIDATION.md` (required);
-  `PROGRESS.md`, `DECISIONS.md` (optional).
+## Prohibited actions
+
+- Never expose secrets or patient data; this is a public site.
+- Do not use production credentials or production data.
+- Do not modify other capsules or shared packages without recording scope expansion.

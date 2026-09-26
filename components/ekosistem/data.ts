@@ -1,4 +1,4 @@
-// Adapted from D:\Devops\abyss-monorepo\apps\healthcare\sentraverse\app\story\page.tsx (PRODUCTS + MODULES)
+// Adapted from app\story\page.tsx (PRODUCTS + MODULES)
 import {
   Baby,
   Bot,
