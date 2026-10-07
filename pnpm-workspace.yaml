@@ -9,8 +9,9 @@ allowBuilds:
   sharp: true
   unrs-resolver: true
 
-# Advisori keamanan (pnpm audit 2026-09-26): postcss <= 8.5.22 dan sharp < 0.35.4
-# lewat dependensi transitif next.
+# Advisori keamanan: transitive pins via next/postcss/tailwind (pnpm audit).
+# braces (dev-only via eslint-config-next) has no published patch >=3.0.4 yet.
 overrides:
   postcss: ">=8.5.23"
-  sharp: ">=0.35.4"
+  sharp: ">=0.35.5"
+  source-map-js: ">=1.2.2"
