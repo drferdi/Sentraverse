@@ -58,10 +58,11 @@ Console file `app/google22238cc24e0d1002.html` (`README.md` §20, `CHANGELOG.md`
 - Next.js `16.3.8` (App Router, `--webpack` for dev/build), React 19, TypeScript `5.9`
   (strict), Tailwind CSS v4 (`@theme` in `app/globals.css`), GSAP `3.14` + ScrollTrigger,
   Framer Motion `12`, `pnpm@11.21.0`.
-- Runtime contract: Node 24 (`project.contract.json`, `.github/workflows/ci.yml`
-  `node-version: '24'`); `package.json` `engines` requires `>=24 <25`. `README.md` §17
-  states Node `>= 22` / pnpm `>= 9` — TODO for Gaffer: confirm which minimum the docs
-  should state.
+- Minimum versions: Node 24 and pnpm 11.21.0 (`package.json` `engines` requires
+  `>=24 <25` and `packageManager` pins `pnpm@11.21.0`; `project.contract.json`
+  runtime is Node 24; `.github/workflows/ci.yml` uses Node `24` and pnpm `11.21.0`).
+  `README.md` §17 states Node `>= 22` / pnpm `>= 9`, which is outdated relative to
+  these pins.
 - Package name/version: `@the-abyss/sentraverse` `1.0.0` (`package.json`).
 - Standalone capsule: own `pnpm-workspace.yaml`, lockfile, scripts, and build config; no
   dependency on an enclosing workspace (`AGENTS.md`, `pnpm-workspace.yaml` comments).

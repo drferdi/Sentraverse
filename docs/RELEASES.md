@@ -59,10 +59,11 @@ For each release capture: version/commit, scope, changelog entry, verification e
 (CI run, `deploy:dry-run` output), known risks, approver, target, and rollback /
 monitoring outcome. No release-record entries exist in the repo today.
 
-## Rollback (as documented — verify target first)
+## Rollback (target belum dikonfirmasi / not yet confirmed)
 
 - Per `docs/deployment.md` (Railway): `railway rollback`, or dashboard → Deployments →
   select previous deployment → Redeploy; then re-run the post-deploy `curl` checks.
-- TODO for Gaffer: confirm whether Railway rollback still applies or whether the Vercel
-  target noted in `.agents/HANDOFF.md` has superseded it, and state the authoritative
-  rollback command for the current host.
+- Conflicting source: `.agents/HANDOFF.md` (2026-09-26) records re-pointing the Vercel
+  project for `sentrahai.com` to the capsule root as the next action. The authoritative
+  rollback command depends on the confirmed production target (see "Deployment targets"
+  in `docs/OPERATIONS.md`); do not assume either host until the owner confirms.

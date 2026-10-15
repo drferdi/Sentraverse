@@ -32,8 +32,10 @@ it.
 - `README.md` §25 states `ISC © 2026 Sentra Healthcare Solutions`, and `package.json`
   declares `"license": "ISC"`. These differ from the proprietary `LICENSE` file above,
   which is the binding text in the repo.
-- TODO for Gaffer: reconcile the `ISC` references in `README.md` §25 and `package.json`
-  with the proprietary `LICENSE` file, and confirm the approved public license line.
+- Known mismatch for the owner to fix: `README.md` §25 states `ISC © 2026 Sentra
+  Healthcare Solutions` and `package.json` declares `"license": "ISC"`, which
+  contradicts the proprietary `LICENSE` file above. The `LICENSE` file is binding;
+  the `ISC` references are incorrect and must be corrected by the owner.
 - Third-party dependencies are listed in `package.json` (`dependencies` /
   `devDependencies`) with a `pnpm-lock.yaml` and `pnpm-workspace.yaml` overrides; no
   license-attribution inventory exists in the repo.
