@@ -1,5 +1,3 @@
-> SPS_REVIEW_REQUIRED — this file is an unreviewed scaffold. A repository owner must verify every statement against the sources cited and remove this marker only after review.
-
 # Repository Ownership and Governance — Sentraverse
 
 ## Authority (facts in the repo)
@@ -37,8 +35,8 @@
   `SECURITY.md`, `ROADMAP.md`, plus `docs/` index (`docs/README.md`). Durable capsule
   decisions: `.agents/DECISIONS.md`.
 
-TODO for Gaffer: confirm per-module maintainers (if any beyond the owner above), the
-security contact for non-vulnerability governance questions, and the escalation channel.
+Per-module maintainers (if any beyond the owner above), the security contact for
+non-vulnerability governance questions, and the escalation channel: Belum dikonfirmasi.
 
 ## Collaboration rules
 
@@ -55,6 +53,6 @@ security contact for non-vulnerability governance questions, and the escalation 
 - Documentation improvements do not grant permission to modify software, CI, secrets, or
   deployment configuration.
 
-TODO for Gaffer: confirm branch/merge rules (required reviewers, protected paths beyond
-`next.config.mjs` and `/api/medical-knowledge`, merge vs. squash policy) — the repo
+Branch/merge rules (required reviewers, protected paths beyond `next.config.mjs` and
+`/api/medical-knowledge`, merge vs. squash policy): Belum dikonfirmasi — the repo
 states the PR template and CI gates but no explicit branch-protection settings.

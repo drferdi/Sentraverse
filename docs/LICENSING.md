@@ -1,5 +1,3 @@
-> SPS_REVIEW_REQUIRED — this file is an unreviewed scaffold. A repository owner must verify every statement against the sources cited and remove this marker only after review.
-
 # Licensing and Intellectual Property — Sentraverse
 
 This file summarizes the license posture. The binding text is the existing
@@ -39,9 +37,9 @@ it.
 - Third-party dependencies are listed in `package.json` (`dependencies` /
   `devDependencies`) with a `pnpm-lock.yaml` and `pnpm-workspace.yaml` overrides; no
   license-attribution inventory exists in the repo.
-- TODO for Gaffer: confirm third-party license obligations/attribution, whether any
-  source-available or server-side components must remain private, and the authorization
-  required before any distribution beyond the permitted uses in `LICENSE`.
+- Third-party license obligations/attribution, whether any source-available or
+  server-side components must remain private, and the authorization required before any
+  distribution beyond the permitted uses in `LICENSE`: Belum dikonfirmasi.
 
 A repository being accessible does not make it open-source. Do not describe this
 repository as open-source unless the owner replaces `LICENSE` with an approved

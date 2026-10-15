@@ -1,5 +1,3 @@
-> SPS_REVIEW_REQUIRED — this file is an unreviewed scaffold. A repository owner must verify every statement against the sources cited and remove this marker only after review.
-
 # Release Procedure — Sentraverse
 
 This file documents the release mechanics the repository states. It does not authorize
@@ -14,9 +12,9 @@ any release, publish, merge, push, or deployment.
   RSC migration, bundle-analyzer wiring); `[1.0.0]` (2026-03-16) records pages, the four
   articles in `app/insights/data.ts`, landing sections, UI primitives, design tokens,
   SEO/metadata, and infrastructure (`CHANGELOG.md`).
-- TODO for Gaffer: confirm who cuts a version (bumps `package.json`, writes
-  `CHANGELOG.md`) and the tagging convention — the repo states the format but no release
-  owner or tag practice.
+- Who cuts a version (bumps `package.json`, writes `CHANGELOG.md`) and the tagging
+  convention: Belum dikonfirmasi — the repo states the format but no release owner or
+  tag practice.
 
 ## Authority and gates
 
@@ -32,9 +30,9 @@ any release, publish, merge, push, or deployment.
 - SEO gate (PR template + `README.md` §19): new routes in `app/sitemap.ts` with correct
   `changeFrequency`/`priority`, updated meta descriptions and OG images, valid JSON-LD /
   sitemap / robots.
-- TODO for Gaffer: designate the release approver and environment gates (who authorizes
-  production push, and what evidence — CI run, dry-run output, visual scroll review —
-  must be attached).
+- Release approver and environment gates (who authorizes a production push, and what
+  evidence — CI run, dry-run output, visual scroll review — must be attached):
+  Belum dikonfirmasi.
 
 ## Pre-release checklist (from the repo)
 

@@ -1,5 +1,3 @@
-> SPS_REVIEW_REQUIRED — this file is an unreviewed scaffold. A repository owner must verify every statement against the sources cited and remove this marker only after review.
-
 # Architecture Decision Records
 
 ADRs record **decisions that were actually made**. Do not fabricate historic decisions
@@ -18,8 +16,8 @@ format.
 | `docs/deployment.md` | Deployment decisions as documented (Railway); see `docs/OPERATIONS.md` for the Vercel note in `.agents/HANDOFF.md` |
 
 There is no `docs/adr/` directory in this repo; the only ADR file is
-`docs/adr-001-nextjs-app-router.md`. TODO for Gaffer: confirm where future ADRs should
-live (same `docs/` level with sequential numbering, or a new `docs/adr/` directory).
+`docs/adr-001-nextjs-app-router.md`. Where future ADRs should live (same `docs/`
+level with sequential numbering, or a new `docs/adr/` directory): Belum dikonfirmasi.
 
 ## Format for a new ADR (mirrors `docs/adr-001-nextjs-app-router.md`)
 
@@ -41,5 +39,5 @@ live (same `docs/` level with sequential numbering, or a new `docs/adr/` directo
   `SentraSim`/`ClinicalTrajectory`/`ClinicalPrognosis`) require Chief verification
   (`docs/ai-governance.md`, `CONTRIBUTING.md`) — an ADR does not substitute for that
   sign-off.
-- TODO for Gaffer: designate the ADR approver and whether ADRs need a second reviewer
-  beyond the decider.
+- ADR approver and whether ADRs need a second reviewer beyond the decider:
+  Belum dikonfirmasi.

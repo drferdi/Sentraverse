@@ -1,5 +1,3 @@
-> SPS_REVIEW_REQUIRED — this file is an unreviewed scaffold. A repository owner must verify every statement against the sources cited and remove this marker only after review.
-
 # Project Overview — Sentraverse
 
 Public Sentra marketing website and platform hub for `sentrahai.com` (see `AGENTS.md`
@@ -109,8 +107,8 @@ Changelog / SemVer); `CONTRIBUTING.md`; `SECURITY.md`.
 - Lab/location as stated in `README.md` §26: Melinda Advanced Technology Laboratory,
   Kediri, East Java.
 
-TODO for Gaffer: confirm the current public contact address and which inbox handles
-security reports, licensing requests, and pilot inquiries.
+Contact routing — which inbox handles security reports vs. licensing requests vs. pilot
+inquiries: Belum dikonfirmasi. (The stated addresses are listed above with their sources.)
 
 ## Success criteria (repo-stated)
 
