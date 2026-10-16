@@ -877,7 +877,7 @@ responsibility of licensed medical professionals.
 
 ## 25 / LICENSE
 
-ISC © 2026 **Sentra Healthcare Solutions**
+Proprietary — © 2025–2026 **Sentra Healthcare Solutions**. See [`LICENSE`](./LICENSE).
 
 ---
 
