@@ -1,5 +1,3 @@
-> SPS_REVIEW_REQUIRED — this file is an unreviewed scaffold. A repository owner must verify every statement against the sources cited and remove this marker only after review.
-
 # Operations Runbook — Sentraverse
 
 This runbook describes only what the repository states. It does not authorize
@@ -49,8 +47,13 @@ The site runs with zero required environment configuration (`README.md` §17).
 - `.agents/HANDOFF.md` (2026-09-26) records the next action as re-pointing the Vercel
   project for `sentrahai.com` to the capsule root (Chief); `.github/workflows/ci.yml`
   header notes "Deploy ditangani Vercel".
-- TODO for Gaffer: confirm the current production target (Railway vs. Vercel), who can
-  deploy, and the authoritative rollback procedure.
+- Current production target: belum dikonfirmasi / not yet confirmed. Two conflicting
+  sources exist: `docs/deployment.md` documents Railway (auto-detected Next.js;
+  `npm run build` / `npm run start`; production `https://sentrahai.com`; rollback via
+  `railway rollback` or dashboard redeploy), while `.agents/HANDOFF.md` (2026-09-26)
+  records the next action as re-pointing the Vercel project for `sentrahai.com` to the
+  capsule root (Chief) and the `.github/workflows/ci.yml` header notes "Deploy
+  ditangani Vercel". Do not operate on either assumption until the owner confirms.
 
 ## Health signals and verification
 
@@ -79,6 +82,6 @@ The site runs with zero required environment configuration (`README.md` §17).
   production intervention. This site processes no PHI and has no database or user
   sessions (`SECURITY.md`, `docs/data.md`).
 
-TODO for Gaffer: confirm monitoring, alert routing, on-call ownership, backup/restore
-scope (static site — confirm whether any state needs recovery), and capacity/cost
-ownership. No runbook in the repo states these today; do not infer them from this file.
+Monitoring, alert routing, on-call ownership, backup/restore scope (static site —
+whether any state needs recovery), and capacity/cost ownership: Belum dikonfirmasi.
+No runbook in the repo states these today; do not infer them from this file.
